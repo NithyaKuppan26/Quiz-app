@@ -1,0 +1,112 @@
+
+.gray{
+    color:red
+}
+.choice:hover{
+    background-color: rgb(18, 140, 255);
+    cursor: pointer;
+    color: white;
+}
+.choice{
+    background-color: rgb(231, 229, 229);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.mainPage{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100vh; 
+}
+
+.mainPages{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    position: relative;
+    top: 67px;
+}
+
+.centeredDiv{
+    width: 70vw;
+    height: 70vh;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+.radio{
+    margin-right: 5px;
+}
+
+.label{
+    cursor: pointer;
+}
+.quizDiv{
+    width: 70vw;
+    height: 70vh;
+    background-color: white ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+.buttons{
+    position: fixed;
+  top: 320px;
+  left: 320px;
+
+}
+
+.choice label {
+    display: block;
+   
+    cursor: pointer;
+  }
+  
+  .choice input[type="radio"] {
+    display: none;
+  }
+  
+  .choice.selected label {
+    background-color: blue;
+    color: white;
+  }
+  
+  .choice.disabled label {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  .scoreBoard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.scoreBoard ul, .scoreBoard p {
+    margin: 10px 0;
+}
+
+.scoreBoard h2 {
+    margin-bottom: 20px;
+}
+
+.scoreBoard p {
+    padding: 10px;
+    background: #e6f7ff;
+    border-left: 5px solid #1890ff;
+    border-radius: 5px;
+}
+
+/* Scoreboard Styles */
+.scoreBoard .correct {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+}
+
+.scoreBoard .incorrect {
+    background-color: #f8d7da;
+    border-left: 5px solid #dc3545;
+}
