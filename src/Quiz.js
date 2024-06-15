@@ -90,7 +90,7 @@ function Quiz() {
     };
     const para = {
         color: "gray",
-        fontSize: '12px',
+        fontSize: '15px',
     };
 
     return (

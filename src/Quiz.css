@@ -10,8 +10,12 @@
 .choice{
     background-color: rgb(231, 229, 229);
     border-radius: 5px;
-    margin: 5px;
+    margin-left: 200px;
+    margin-bottom: 10px;
     padding: 5px;
+     width: 500px;
+     align-items: center;
+     justify-content: center;
 }
 
 
@@ -32,7 +36,7 @@
 
 .centeredDiv{
     width: 70vw;
-    height: 70vh;
+    height: 50vh;
     background-color: lightgrey;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -47,19 +51,21 @@
 }
 .quizDiv{
     width: 70vw;
-    height: 70vh;
+    height: 50vh;
     background-color: white ;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     padding: 20px;
     border: 1px solid lightgrey;
+    /* align-items: center; */
+    
 }
-.buttons{
+/* .buttons{
     position: fixed;
   top: 320px;
-  left: 320px;
+  left: 600px;
 
-}
+} */
 
 .choice label {
     display: block;
